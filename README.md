@@ -7,3 +7,4 @@ The primary question that I am looking to answer is whether or not ethnic or pol
 
 **figure.png** contains a regression plot of the aggregate casualties and the number of returned refugees. 
 **table.png** contains a table with the results of the regression plot. 
+**refugee_asylum_data.csv** and **unemp.csv** has data on refugee return by origin countries and the unemployment rate respectively, over the years between 2019-2024. 
