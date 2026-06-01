@@ -8,11 +8,9 @@ The primary question that I am looking to answer is whether or not having a high
 **figure_1.png** contains a regression plot of the centre-left vote share difference between 2022 and 2018 and the number of refugees. 
 **table.png** contains a table with the results of the regression. 
 
-Within, the _data_ folder which is inside the _code_ folder, **commune_results_election_2018.csv** and **commune_results_election_2018.csv** are the datasets on the national election results in the years of 2018 and 2022. 
+Within the _data_ folder, which is inside the _code_ folder, **commune_results_election_2018.csv** and **commune_results_election_2018.csv** are the datasets on the national election results in the years of 2018 and 2022. 
 
-**unemp_data_2018_with_regione.csv**, **unemp_data_2019_with_regione.csv**, **unemp_data_2021_with_regione.csv**, and **unemp_data_2022_with_regione.csv**, has data on the annual unemployment rates for the years 2018, 2019, 2021, and 2022. 
-
-**cas_data.csv** has the data on the CAS refugee centers, including their locations and population, between the years of 2018 to 2023. 
+Within the same _data_ folder, **unemp_data_2018_with_regione.csv**, **unemp_data_2019_with_regione.csv**, **unemp_data_2021_with_regione.csv**, and **unemp_data_2022_with_regione.csv** has data on the annual unemployment rates for the years 2018, 2019, 2021, and 2022. Additionally, **cas_data.csv** has the data on the CAS refugee centers, including their locations and population, between the years of 2018 to 2023. 
 
 The datasets have been sourced from the following sources: 
 - ISTAT (Istituto Nazionale di Statistica) 
