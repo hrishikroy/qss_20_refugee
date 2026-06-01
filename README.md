@@ -1,12 +1,20 @@
 # qss_20_refugee
 
 **Project Summary:** 
-The primary question that I am looking to answer is whether or not ethnic or political violence increases when refugees return to their countries or locations of origin. Secondarily, the question that I am also trying to answer is whether or not this increase in violence is motivated more by resource scarcity with refugees coming back, which will be measured using a proxy such as unemployment or purchasing power, or increased inequality triggered by return of a population which will be expressed by the change in the gini index over subsequent years. 
+The primary question that I am looking to answer is whether or not having a higher share of refugees in an area results in lesser votes for centre-left parties and subsequently higher share of votes for centre-right or far-right parties in Italy. 
 
-**final_project_1.ipynb** contains all the code for loading the datasets, cleaning and merging them together, and running a regression which has aggregate casualties as a dependent variable and number of returned refugees as an independent variable, while having unemployment rate as a control variable. 
+**final_project_1.ipynb** contains all the code for loading the datasets, cleaning and merging them together, and running a regression which has centre-left vote share difference between 2022 and 2018 as a dependent variable and the number of refugees per 1000 inhabitants as an independent variable, while having employment rate and baseline center-left support (represented through a proxy of centre-left vote share in 2018) as control variables. All these variables are at the Comune level - which is the smallest administrative level in Italy.
 
-**figure.png** contains a regression plot of the aggregate casualties and the number of returned refugees. 
-**table.png** contains a table with the results of the regression plot. 
-Within, the _data_ folder which is inside the _code_ folder, **refugee_asylum_data.csv** and **unemp.csv** has data on refugee return by origin countries and the unemployment rate respectively, over the years between 2019-2024. 
+**figure_1.png** contains a regression plot of the centre-left vote share difference between 2022 and 2018 and the number of refugees. 
+**table.png** contains a table with the results of the regression. 
 
-Furthermore, here is a link to the ACLED violence dataset: https://drive.google.com/file/d/1LnSZV3HLxfMeQbtkRK7SQ8Xie_A47ApN/view?usp=sharing 
+Within, the _data_ folder which is inside the _code_ folder, **commune_results_election_2018.csv** and **commune_results_election_2018.csv** are the datasets on the national election results in the years of 2018 and 2022. 
+
+**unemp_data_2018_with_regione.csv**, **unemp_data_2019_with_regione.csv**, **unemp_data_2021_with_regione.csv**, and **unemp_data_2022_with_regione.csv**, has data on the annual unemployment rates for the years 2018, 2019, 2021, and 2022. 
+
+**cas_data.csv** has the data on the CAS refugee centers, including their locations and population, between the years of 2018 to 2023. 
+
+The datasets have been sourced from the following sources: 
+- ISTAT (Istituto Nazionale di Statistica) 
+- Italian Ministry of Interior 
+- Openpolis Foundation and ActionAid
