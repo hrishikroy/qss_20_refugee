@@ -31,8 +31,8 @@ Some raw datasets are too large to upload directly to this repository. Download 
 | File | Download link | Notes |
 |---|---|---|
 | `cas_data.csv` | [Google Drive](https://drive.google.com/file/d/1QDiEDHPC3ANpmlwnHx7YBgBHWU_xj1yC/view?usp=sharing) | Raw CAS refugee reception center data. Used in `00_process_refugee_dataset.ipynb`. |
-| `commune_results_2018.txt` | [Google Drive](https://drive.google.com/file/d/18AOYr_v8z25tqU3FSHM-YjmKad9kThlc/view?usp=sharing) | Raw 2018 Chamber of Deputies commune-level election results. The notebook currently reads this as `Camera2018_livComune.txt`, so either save it under that name or update the path in the notebook. |
-| `commune_results_2022.csv` | [Google Drive](https://drive.google.com/file/d/16fQbdtvgZbc-uwi85UKxs6J3QzGSyLKA/view?usp=sharing) | Raw 2022 Chamber of Deputies commune-level election results. The notebook currently reads this as `Camera_Italia_LivComune.csv`, so either save it under that name or update the path in the notebook. |
+| `commune_results_2018.txt` | [Google Drive](https://drive.google.com/file/d/18AOYr_v8z25tqU3FSHM-YjmKad9kThlc/view?usp=sharing) | Raw 2018 Chamber of Deputies commune-level election results.|
+| `commune_results_2022.csv` | [Google Drive](https://drive.google.com/file/d/16fQbdtvgZbc-uwi85UKxs6J3QzGSyLKA/view?usp=sharing) | Raw 2022 Chamber of Deputies commune-level election results.|
 
 The repository also uses the following smaller input files, which should be stored in `data/`:
 
